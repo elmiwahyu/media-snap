@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Noise Effect</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="olahgambar.html" class="btn-back">Back</a>
+      <h2>Noise Effect</h2>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <label for="imageFile" class="custom-file-upload">Choose File</label>
+        <input type="file" name="imageFile" id="imageFile" accept="image/*" />
+        <button type="button" onclick="addNoise()">Noise Gambar</button>
+      </form>
+
+      <div id="output"></div>
+    </div>
+
+    <script src="noise.js"></script>
+  </body>
+</html>

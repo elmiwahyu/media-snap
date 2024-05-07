@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resize Audio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="olahaudio.html" class="btn-back">Back</a>
+      <h1>Resize Audio</h1>
+      <input type="file" id="audioFile" accept="audio/*" />
+      <button onclick="resizeAudio()">Resize</button>
+      <a id="downloadLink" style="display: none" download="resized_audio.mp3"><button>Download</button></a>
+    </div>
+    <script src="sizeaudio.js"></script>
+  </body>
+</html>
